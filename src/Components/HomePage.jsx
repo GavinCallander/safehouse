@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import MapBox from './MapBox';
 import { Route } from 'react-router-dom';
-import MenuBar from './Components/MenBar';
 
-// import MenuBar from './MenuBar'
+
 
 
 class HomePage extends Component {
