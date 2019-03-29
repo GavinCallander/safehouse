@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import MenuBar from './Components/MenuBar';
+import MenuBar from './MenuBar';
 
 
-class SmallSafehousePage extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            description: {},
-            supplies: {}
-        }
-    }
+const SmallSafehousePage = (props) => {
+    return (
+
+<h1>HI WE WORKING</h1>
+    )
 
 }
-<h1>HI WE WORKING</h1>
 
 export default SmallSafehousePage;

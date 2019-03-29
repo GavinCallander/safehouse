@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-const ProfilePage = (props) => {
+const Profile = (props) => {
     return (
-        <h1>Something</h1>
+        <h1>Hi</h1>
     )
 }
 
