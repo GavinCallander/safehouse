@@ -16,7 +16,7 @@ const SafehouseOne = (props) => {
                 <p></p>
             </div>
         </section>
-        {MenuBar}
+        <MenuBar />
         </>
     )
 }
