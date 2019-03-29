@@ -84,7 +84,7 @@ class MapBox extends Component {
                     <Marker
                         coordinates = {[this.state.safehouse1.lon, this.state.safehouse1.lat]}
                         anchor = 'bottom'>
-                        <a href='./HouseOne'>
+                        <a href='./House1'>
                         <img 
                             alt = 'marker'
                             src = {HouseMap}
@@ -96,7 +96,7 @@ class MapBox extends Component {
                     <Marker
                         coordinates = {[this.state.safehouse2.lon, this.state.safehouse2.lat]}
                         anchor = 'bottom'>
-                        <a href='./HouseTwo'>
+                        <a href='./House2'>
                         <img 
                             alt = 'marker'
                             src = {HouseMap}
