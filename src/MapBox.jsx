@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactMapBoxGl, { Marker } from 'react-mapbox-gl';
 import Binoculars from './images/binos.svg';
 import RobotMap from './images/RobotMap.svg';
+import HouseMap from './images/HouseMap.svg';
 import { Link } from 'react-router-dom';
 
 
@@ -21,10 +22,6 @@ class MapBox extends Component {
                 lon: '-122.3165'
             },
             {
-                lat: '47.6072890',
-                lon: '-122.3353181'
-            },
-            {
                 lat: '47.590497638',
                 lon: '-122.325665364'
             },
@@ -33,16 +30,14 @@ class MapBox extends Component {
                 lon: '-122.33476'
             }
         ],
-        safehouses: [
-            {
+        safehouse1: {
                 lat: '47.600506',
                 lon: '-122.333221'
             },
-            {
+        safehouse2: {
                 lat: '47.6121',
-                lon: '122.3319'
+                lon: '-122.3319'
             }
-        ]
         }
     }
     render() {
@@ -55,7 +50,6 @@ class MapBox extends Component {
             return <Marker key={index}
             coordinates = {[house.lon, house.lat]}
             anchor = 'bottom'>
-            <a href='./chat'>
             <img 
 
                 alt = 'marker'
@@ -65,7 +59,6 @@ class MapBox extends Component {
                 width = '50px'
                 height = '50px'
                 />
-                </a>
         </Marker>
         })
         return(
@@ -84,6 +77,26 @@ class MapBox extends Component {
                             src = {
                                 'https://www.shareicon.net/download/2015/12/05/682942_map.svg'
                             }
+                            width = '50px'
+                            height = '50px'
+                            />
+                    </Marker>
+                    <Marker
+                        coordinates = {[this.state.safehouse1.lon, this.state.safehouse1.lat]}
+                        anchor = 'bottom'>
+                        <img 
+                            alt = 'marker'
+                            src = {HouseMap}
+                            width = '50px'
+                            height = '50px'
+                            />
+                    </Marker>
+                    <Marker
+                        coordinates = {[this.state.safehouse2.lon, this.state.safehouse2.lat]}
+                        anchor = 'bottom'>
+                        <img 
+                            alt = 'marker'
+                            src = {HouseMap}
                             width = '50px'
                             height = '50px'
                             />
