@@ -34,6 +34,7 @@ class Chat extends Component {
             return <p key={index}>{message}</p>
         })
         return (
+            <section className='container'>
             <section className='Chat'>
                 <div className="chatfeed">
                     {chatFeed}
@@ -44,9 +45,10 @@ class Chat extends Component {
                         <button type="submit" onClick={this.chatSubmit}>Chat</button>
                     </form>
                 </div>
-                <div ClassName='MenuBar'>
+            </section>
+            
                 <MenuBar />
-                </div>
+            
             </section>
         )
     }
