@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import MapBox from './MapBox';
+import MenuBar from './MenuBar';
+
 
 class HomePage extends Component {
     constructor(props) {
@@ -10,14 +12,15 @@ class HomePage extends Component {
         }
     }
     render() {
-        return (
-            <section className='mapboxContainer'>
-            <header>TITLE HERE</header>
+        return ( 
+            <section className='HomePage'>
+            <header>Explore Below to Find Your SafeHouse</header>
                 <div className='mapbox'>
                     <MapBox />
                 </div>
                 <div className='otherdiv'>
                 </div>
+                <MenuBar />
             </section>
         )
     }
