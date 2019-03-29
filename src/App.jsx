@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import HomePage from './HomePage';
-import Chat from './Chat';
+import Chat1 from './Chat1';
+import Chat2 from './Chat2';
 import { BrowserRouter, Route, Link} from 'react-router-dom';
 import SafehouseOne from './SafehouseOne';
 import SafehouseTwo from './SafehouseTwo';
@@ -20,7 +21,10 @@ class App extends Component {
         render = { () => <HomePage /> } />
         
         <Route path='/chat'
-        render = { () => <Chat /> } />
+        render = { () => <Chat1 /> } />
+
+<Route path='/chat'
+        render = { () => <Chat2 /> } />
 
         <Route path='/House1'
         render = { () => <SafehouseOne /> } /> 

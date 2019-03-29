@@ -84,22 +84,26 @@ class MapBox extends Component {
                     <Marker
                         coordinates = {[this.state.safehouse1.lon, this.state.safehouse1.lat]}
                         anchor = 'bottom'>
+                        <a href='./SafehouseOne'>
                         <img 
                             alt = 'marker'
                             src = {HouseMap}
                             width = '50px'
                             height = '50px'
                             />
+                            </a>
                     </Marker>
                     <Marker
                         coordinates = {[this.state.safehouse2.lon, this.state.safehouse2.lat]}
                         anchor = 'bottom'>
+                        <a href='./SafehouseTwo'>
                         <img 
                             alt = 'marker'
                             src = {HouseMap}
                             width = '50px'
                             height = '50px'
                             />
+                            </a>
                     </Marker>
                     {safehouses}
                 </Map>
