@@ -63,9 +63,6 @@
     height: 50px;
 }
 
-.container {
-    display: flex;
-}
 
 html body {
     background-color: black;
@@ -74,6 +71,7 @@ html body {
 
 .SafehouseOne {
     color: white;
+    display: flex;
 }
 
 .Profile {
@@ -82,4 +80,7 @@ html body {
 
 .SafehouseTwo {
     color: white;
+    margin: auto;
+    
 }
+

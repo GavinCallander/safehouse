@@ -1,13 +1,13 @@
 import React from 'react';
 import MenuBar from './MenuBar';
-import HouseMap from './images/HouseMap.svg';
+import Logo from './images/Group.svg';
 
 const SafehouseTwo = (props) => {
     return (
         <>
         <section className='SafehouseTwo'>
             <div id='safehouse'className='top'>
-                <img src={HouseMap} id='housemap' />
+                <img src={Logo} id='housemap' />
             </div>
             <div className='desc'>
                 <p>Capacity: 8</p>
@@ -20,6 +20,14 @@ const SafehouseTwo = (props) => {
                 <p>Water: 4 months</p>
                 <p>First Aid: 4 medkits</p>
                 <p>Power:  Yes</p>
+                <p>.            </p>
+                <p>.           </p>
+                <p>.           </p>
+                <p>.            </p>
+                <p>.            </p>
+                <p>.            </p>
+                <p>.            </p>
+                <p>.           </p>
             </div>
         </section>
         <MenuBar />
