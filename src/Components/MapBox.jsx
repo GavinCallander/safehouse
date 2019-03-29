@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactMapBoxGl, { Marker } from 'react-mapbox-gl';
+
 
 class MapBox extends Component {
     constructor(props) {
