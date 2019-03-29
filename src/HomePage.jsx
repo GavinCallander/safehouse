@@ -12,7 +12,8 @@ class HomePage extends Component {
     }
     render() {
         return (
-            <container>
+            <container className='mapboxContainer'>
+            <header>SafeHouse</header>
                 <div className='mapbox'>
                     {MapBox}
                 </div>

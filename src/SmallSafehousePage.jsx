@@ -8,6 +8,8 @@ class SmallSafehousePage extends Component {
             supplies: {}
         }
     }
+
 }
 <h1>HI WE WORKING</h1>
+
 export default SmallSafehousePage;
