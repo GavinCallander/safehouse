@@ -10,14 +10,8 @@ class App extends Component {
   render () {
     return (
     <h1>SafeHouse</h1> 
-    <a href='/Homepage'>I am Not A Robot</a>
     )
   }
 }
 
-
-
-
-
-
-    export default App;
+export default App;
