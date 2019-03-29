@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Binos from './images/binos.svg';
 import FirstAid from './images/FirstAid.svg';
 import HouseMap from './images/HouseMap.svg';

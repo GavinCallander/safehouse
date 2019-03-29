@@ -8,11 +8,12 @@ const SafehouseOne = (props) => {
             <div className='image-box'>
             </div>
             <div className='desc'>
+                <p></p>
             </div>
         </section>
         <section className="bottom">
             <div className='supplies'>
-
+                <p></p>
             </div>
         </section>
         {MenuBar}
