@@ -1,13 +1,6 @@
 
 /* Small Safe House Page Styles ------------------*/
 
-.SmallSafehousePage {
-    margin: auto;
-    padding: auto;
-    background-color: black;
-
-}
-
 /* HomePage Styles --------------------*/
 
 .Homepage section {
@@ -74,4 +67,16 @@
 html body {
     background-color: black;
 
+}
+
+.SafehouseOne {
+    color: white;
+}
+
+.Profile {
+    color: white;
+}
+
+.SafehouseTwo {
+    color: white;
 }

@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Toggle from './images/toggle.png'
+
 
 const Profile = (props) => {
     return (
-        <h1>I Am Not A Robot</h1>
-        <img src
+        <div className='Profile'>
+        <h1 id='robot'>I Am not a robot</h1>
+        <img src={Toggle}></img>
+        </div>
     )
 }
 
