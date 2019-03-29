@@ -1,28 +1,36 @@
 import React from 'react';
 import MenuBar from './MenuBar';
-import HouseMap from './images/HouseMap.svg';
+import Logo from './images/Group.svg';
 
 const SafehouseTwo = (props) => {
     return (
         <>
-        <section>
-            <div className='image-box'>
-                <img src={HouseMap} />
+        <section className='SafehouseTwo'>
+            <div id='safehouse'className='top'>
+                <img src={Logo} id='housemap' />
             </div>
             <div className='desc'>
                 <p>Capacity: 8</p>
                 <p>Headcount: 5</p>
             </div>
         </section>
-        <section>
-            <div className='supplies'>
+        <section className='SafeHouseTwo'>
+            <div id='safehouse'className='supplies'>
                 <p>Food: 5 months</p>
                 <p>Water: 4 months</p>
                 <p>First Aid: 4 medkits</p>
                 <p>Power:  Yes</p>
+                <p>.            </p>
+                <p>.           </p>
+                <p>.           </p>
+                <p>.            </p>
+                <p>.            </p>
+                <p>.            </p>
+                <p>.            </p>
+                <p>.           </p>
             </div>
         </section>
-        {MenuBar}
+        <MenuBar />
         </>
     )
 }
