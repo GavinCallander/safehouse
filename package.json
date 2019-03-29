@@ -6,8 +6,10 @@
     "dotenv": "^7.0.0",
     "mapbox-gl": "^0.53.1",
     "react": "^16.8.6",
+    "react-browser-router": "^2.1.2",
     "react-dom": "^16.8.6",
     "react-mapbox-gl": "^4.2.0",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
