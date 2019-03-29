@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MapBox from './MapBox';
 import MenuBar from './MenuBar';
+import Binos from './images/binos.svg';
 
 
 class HomePage extends Component {
