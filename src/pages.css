@@ -10,13 +10,22 @@
 
 /* HomePage Styles --------------------*/
 
-.Homepage .body {
+.Homepage section {
     background-color: black;
-    color: greenyellow;
+}
+#h1 {
+    color: green;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
 }
 
-.h1 {
-    color: white;
+#h3 {
+    color: rgb(106, 156, 30);
+    text-align: center;
+}
+
+.header {
     background-color: black;
 }
 /* MenuBar styles ------------------------ */

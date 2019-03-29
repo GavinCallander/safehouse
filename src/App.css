@@ -1,5 +1,11 @@
 @import url('./pages.css');
 
+.Content {
+  display: block;
+  height: 82vh;
+
+}
+
 .App {
   text-align: center;
 }

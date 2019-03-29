@@ -16,7 +16,7 @@ render() {
             </Link>
         <Link to='/Profile'>
             </Link>
-        <img src='' alt="Logo" />;
+        <img src='./images/binoculars-solid.svg' alt="bino" />;
         </div>
         
         );

@@ -15,7 +15,6 @@ class App extends Component {
   render () {
     return (
       <BrowserRouter>
-        <h1>C-Cure</h1>
         
         <Route exact path='/'
         render = { () => <HomePage /> } />
