@@ -36,7 +36,8 @@ class Chat extends Component {
         return (
             <section className='container'>
             <section className='Chat'>
-                <div className="chatfeed">
+            <header>Crisis Notifications</header>
+                <div className="Chat">
                     {chatFeed}
                 </div>
                 <div className="chatform">
