@@ -41,8 +41,9 @@
     background-color: black;
     height: 10vh;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-evenly;
+    justify-items: center;
 }
 
 

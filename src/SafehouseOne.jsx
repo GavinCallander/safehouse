@@ -22,7 +22,7 @@ const SafehouseOne = (props) => {
                 <p>Power:  Yes</p>
             </div>
         </section>
-        {MenuBar}
+        <MenuBar />
         </>
     )
 }
