@@ -14,13 +14,16 @@ class HomePage extends Component {
     render() {
         return ( 
             <section className='HomePage'>
-            <header>Explore Below to Find Your SafeHouse</header>
+            <header className='header'>
+            <h1 id='h1'>C - CURE</h1>
+            <p id='h3'>Explore Below to Find Your SafeHouse</p>
                 <div className='mapbox'>
                     <MapBox />
                 </div>
                 <div className='otherdiv'>
                 </div>
                 <MenuBar />
+                </header>
             </section>
         )
     }
