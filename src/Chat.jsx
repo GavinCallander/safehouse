@@ -4,20 +4,24 @@ class Chat extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            body: '',
+            chatBody: ['robot sighting in sector 4'],
         }
     }
-    submitChat = () => {
-        this.setState({
-            body: req.body.body
-        })
-        console.log(this.state.body)
-    }
+    // chatSubmit = (e) => {
+    //     e.preventDefault()
+    //     let chatLoad = e.target.value
+    // }
+
+
     render() {
+        console.log(this.state.chatBody)
+        let chatFeed = this.state.chatBody.map((message, index) => {
+            return <p key={index}>{message}</p>
+        })
         return (
-            <container>
+            <section>
                 <div className="chatfeed">
-                    
+                    {chatFeed}
                 </div>
                 <div className="chatform">
                     <form>
@@ -25,7 +29,7 @@ class Chat extends Component {
                         <button type="submit">Chat</button>
                     </form>
                 </div>
-            </container>
+            </section>
         )
     }
 }
