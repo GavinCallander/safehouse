@@ -10,13 +10,11 @@ class MenuBar extends Component {
 render() {
     return (
     <div className='MenuBar'>
-        <Link to='/HomePage'>
-            </Link>
-        <Link to='/Chat'>
-            </Link>
-        <Link to='/Profile'>
-            </Link>
-        <img src='./images/binoculars-solid.svg' alt="bino" />;
+        <a href="/"><img src="./images/binos.svg" />MAP</a>
+        
+        <a href="/Profile"><img src="./images/binos.svg" />PROFILE</a>
+        
+        <a href="/Chat"><img src="./images/binos.svg" />CHAT</a>
         </div>
         
         );

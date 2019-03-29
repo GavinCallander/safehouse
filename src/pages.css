@@ -18,8 +18,13 @@
     text-align: center;
     margin: auto;
     padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.Chat {
+    background: black;
+    color: rgb(106, 156, 30);
+}
 #h3 {
     color: rgb(106, 156, 30);
     text-align: center;
@@ -38,3 +43,7 @@
     justify-content: space-evenly;
 }
 
+.MenuBar svg {
+    width: 32px;
+    height: 32px;
+}

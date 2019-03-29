@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Protection</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Protection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-Copy-2" stroke="#979797" fill="#D8D8D8" opacity="0.248349144" cx="30" cy="30" r="30"></circle>
+        <g id="iconmonstr-shield-33" transform="translate(8.000000, 7.000000)" fill="#9A40CC" fill-rule="nonzero">
+            <path d="M22.5,0 C16.3738636,6.11479167 7.18772727,8.16666667 0,8.16666667 C0,25.68825 10.3663636,41.031375 22.5,49 C34.6336364,41.031375 45,25.68825 45,8.16666667 C37.8122727,8.16666667 28.6261364,6.11479167 22.5,0 Z M4.27090909,12.0335833 C9.2925,11.5313333 16.3636364,9.96741667 22.5,5.39816667 L22.5,43.9979167 C14.3181818,37.7442917 5.61681818,26.4314167 4.27090909,12.0335833 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

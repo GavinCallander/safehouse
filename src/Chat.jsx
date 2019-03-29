@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MenuBar from './MenuBar';
 
 class Chat extends Component {
     constructor(props) {
@@ -33,7 +34,7 @@ class Chat extends Component {
             return <p key={index}>{message}</p>
         })
         return (
-            <section>
+            <section className='Chat'>
                 <div className="chatfeed">
                     {chatFeed}
                 </div>
@@ -42,6 +43,9 @@ class Chat extends Component {
                         <input type="text" name="chat" placeholder="input message..." onChange={this.handleChange} value={this.state.chatLoader} />
                         <button type="submit" onClick={this.chatSubmit}>Chat</button>
                     </form>
+                </div>
+                <div ClassName='MenuBar'>
+                <MenuBar />
                 </div>
             </section>
         )
