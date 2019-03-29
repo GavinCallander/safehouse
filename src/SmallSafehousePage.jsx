@@ -1,13 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import MenuBar from './MenuBar';
 
 
-const SmallSafehousePage = (props) => {
+const SafehouseTwo = (props) => {
     return (
-
-<h1>HI WE WORKING</h1>
+        <>
+        <section>
+            <div className='image-box'>
+            </div>
+            <div className='desc'>
+            </div>
+        </section>
+        <section>
+            <div className='supplies'>
+            </div>
+        </section>
+        {MenuBar}
+        </>
     )
-
 }
 
-export default SmallSafehousePage;
+export default SafehouseTwo;

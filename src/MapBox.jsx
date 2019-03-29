@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactMapBoxGl, { Marker } from 'react-mapbox-gl';
-import Binoculars from './images/binoculars-solid.svg';
+import Binoculars from './images/binos.svg';
 import { Link } from 'react-router-dom';
 
 
