@@ -17,7 +17,7 @@ class ChatPage extends Component {
         return (
             <container>
                 <div className="chatfeed">
-
+                    
                 </div>
                 <div className="chatform">
                     <form>
