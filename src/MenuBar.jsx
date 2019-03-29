@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Binos from './images/binos.svg';
 import { Link } from 'react-router-dom';
 import FirstAid from './images/FirstAid.svg';
 import HouseMap from './images/HouseMap.svg';
 import ActiveExplore from './images/ActiveExplore.svg';
 import ActiveMessage from './images/ActiveMessage.svg';
-import Binos from './images/binoculars-solid.svg';
+import Bino from './images/binoculars-solid.svg';
 import InActiveMessage from './images/InActiveMessage.svg';
 import InActiveProfile from './images/InActiveProfile.svg';
 import ActiveProfile from './images/ActiveProfile.svg';
