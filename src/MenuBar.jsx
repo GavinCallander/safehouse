@@ -17,7 +17,7 @@ render() {
     <div className='MenuBar'>
         <a href="/"><img src={ActiveExplore} id='img2'/></a>
 
-        <a href="/Chat"><img src={InActiveMessage} id='img1' /></a>
+        <a href="/Chat1"><img src={InActiveMessage} id='img1' /></a>
         
         <a href="/Profile"><img src={ActiveProfile} id='img3' /></a>
         

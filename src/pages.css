@@ -20,6 +20,9 @@
     margin: auto;
     text-align: center;
 }
+.Chatfeed {
+    height: 70vh;
+}
 #h3 {
     color: rgb(106, 156, 30);
     text-align: center;

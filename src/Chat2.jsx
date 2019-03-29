@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MenuBar from './MenuBar';
 
-class Chat extends Component {
+class Chat2 extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -57,4 +57,4 @@ class Chat extends Component {
     }
 }
 
-export default Chat;
+export default Chat2;

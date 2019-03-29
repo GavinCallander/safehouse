@@ -20,10 +20,10 @@ class App extends Component {
         <Route exact path='/'
         render = { () => <HomePage /> } />
         
-        <Route path='/chat'
+        <Route path='/chat1'
         render = { () => <Chat1 /> } />
 
-<Route path='/chat'
+        <Route path='/chat2'
         render = { () => <Chat2 /> } />
 
         <Route path='/House1'

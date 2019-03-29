@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import MenuBar from './MenuBar';
 
-class Chat extends Component {
+class Chat1 extends Component {
     constructor(props) {
         super(props)
         this.state = {
             chatBody: [ 'People have left, room has opened up',
                         'bring supplies',
-                        'four beds remaining'],
+                        'four beds remaining',
+                        "Cops can't be trusted, neither can coders in a hackathon",
+                        'Please, leave your weapons and shoes at the door',
+                        'Life is short, drink beer'
+                    ],
             chatLoader: ''
         }
     }
@@ -35,9 +39,9 @@ class Chat extends Component {
         })
         return (
             <section className='container'>
-            <section className='Chat'>
             <header>Crisis Notifications</header>
-                <div className="Chat">
+            <section className='Chat'>
+                <div className="Chatfeed">
                     {chatFeed}
                 </div>
                 <div className="chatform">
@@ -47,12 +51,10 @@ class Chat extends Component {
                     </form>
                 </div>
             </section>
-            
-                <MenuBar />
-            
+            <MenuBar />
             </section>
         )
     }
 }
 
-export default Chat;
+export default Chat1;
