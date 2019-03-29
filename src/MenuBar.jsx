@@ -17,13 +17,13 @@ class MenuBar extends Component {
 render() {
     return (
     <div className='MenuBar'>
-            <Link to='/Explore'>
+            <Link to='/App'>
         <Explore />
             </Link>
-        <Link to='/message'>
+        <Link to='/Chat'>
         <Message />
             </Link>
-        <Link to='/profile'>
+        <Link to='/Profile'>
             <Profile />
         </Link>
         </div>

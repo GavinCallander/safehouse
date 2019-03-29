@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
 import './App.css';
-import HomePage from './Components/HomePage';
+import HomePage from './HomePage';
+import { BrowserRouter, Route, Link} from 'react-router-dom';
 
 class App extends Component {
   constructor(props) {
     super(props)
-  };
-  
+    this.state = {
+      something: ''
+    }
+  }
   render () {
     return (
-      <div className='App'>
-    <h1>C-Cure</h1> 
-      
-      <Route path='/HomePage' component={HomePage} />   
-      </div>
+      <BrowserRouter>
+        <h1>C-Cure</h1>
+        <HomePage />
+      </BrowserRouter>
     )
   }
-
 }
 
 export default App;

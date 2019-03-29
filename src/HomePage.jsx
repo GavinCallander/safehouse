@@ -1,28 +1,24 @@
 import React, { Component } from 'react';
 import MapBox from './MapBox';
-import { Route } from 'react-router-dom';
-
-
-
 
 class HomePage extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            long: this.state.long,
-            lat: this.state.lat
+            long: '',
+            lat: ''
         }
     }
     render() {
         return (
-            <container className='mapboxContainer'>
+            <section className='mapboxContainer'>
             <header>TITLE HERE</header>
                 <div className='mapbox'>
-                    {MapBox}
+                    <MapBox />
                 </div>
                 <div className='otherdiv'>
                 </div>
-            </container>
+            </section>
         )
     }
 }

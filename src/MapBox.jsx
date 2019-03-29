@@ -20,7 +20,7 @@ class MapBox extends Component {
             <>
                 <Map
                     height = '200px'
-                    style = '{`mapbox://styles/garrettmoore/cjtou2gc86i4l1fnhxx633gtf`}'
+                    style = {'mapbox://styles/mapbox/light-v9'}
                     zoom = {[13.5]}
                     center = {[this.state.lon, this.state.lat]}
                     containerStyle = {{ height: '40em' }}>
