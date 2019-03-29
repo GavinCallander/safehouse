@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
-  render() {
+  constructor(props) {
+    super(props)
+  };
+  
+  render () {
     return (
-      <div className="App"> 
-        <h1>SafeHouse</h1>
-        <input className='btn' type='submit' value='Login' />
-      </div>
-    );
+    <h1>SafeHouse</h1> 
+    <a href='/Homepage'>I am Not A Robot</a>
+    )
   }
-  render (
-    
-  )
 }
-export default App;
+
+
+
+
+
+
+    export default App;

@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import MapBox from './MapBox';
+import { Route } from 'react-router-dom';
+import MenuBar from './Components/MenBar';
+
+// import MenuBar from './MenuBar'
 
 
 class HomePage extends Component {
@@ -13,7 +17,7 @@ class HomePage extends Component {
     render() {
         return (
             <container className='mapboxContainer'>
-            <header>SafeHouse</header>
+            <header>TITLE HERE</header>
                 <div className='mapbox'>
                     {MapBox}
                 </div>
