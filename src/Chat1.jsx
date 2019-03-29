@@ -5,11 +5,9 @@ class Chat extends Component {
     constructor(props) {
         super(props)
         this.state = {
-
-            chatBody: [ 'robot sighting in sector 4',
-                        'robot sighting in sector 9',
-                        'we need water, urgently'],
-
+            chatBody: [ 'People have left, room has opened up',
+                        'bring supplies',
+                        'four beds remaining'],
             chatLoader: ''
         }
     }
