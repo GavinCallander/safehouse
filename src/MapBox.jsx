@@ -6,8 +6,8 @@ class MapBox extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            lon: '',
-            lat: ''
+            lon: '-122.33543778148014',
+            lat: '47.6076665'
         }
     }
     render() {
