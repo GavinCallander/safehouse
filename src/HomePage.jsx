@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MapBox from './MapBox';
 
+
 class HomePage extends Component {
     constructor(props) {
         super(props)
@@ -21,3 +22,5 @@ class HomePage extends Component {
         )
     }
 }
+
+export default HomePage;

@@ -9,5 +9,5 @@ class SmallSafehousePage extends Component {
         }
     }
 }
-
+<h1>HI WE WORKING</h1>
 export default SmallSafehousePage;
